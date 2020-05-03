@@ -82,6 +82,7 @@ legend("topright",legend=c("Span=0.2","Span=0.5"),col=c("red","blue"),lty=1,lwd=
 # GAMs
 
 gam1=lm(wage~ns(year,4)+ns(age,5)+education,data=Wage)
+
 library(gam)
 gam.m3=gam(wage~s(year,4)+s(age,5)+education,data=Wage)
 par(mfrow=c(1,3))
