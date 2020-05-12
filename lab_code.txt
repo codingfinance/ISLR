@@ -1003,6 +1003,7 @@ plot(pve,  type="o", ylab="PVE", xlab="Principal Component", col="blue")
 plot(cumsum(pve), type="o", ylab="Cumulative PVE", xlab="Principal Component", col="brown3")
 
 # Clustering the Observations of the NCI60 Data
+#
 
 sd.data=scale(nci.data)
 par(mfrow=c(1,3))
