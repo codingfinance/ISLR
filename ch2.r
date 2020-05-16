@@ -89,6 +89,7 @@ dim(Auto)
 names(Auto)
 
 # Additional Graphical and Numerical Summaries
+#
 
 plot(cylinders, mpg)
 plot(Auto$cylinders, Auto$mpg)
